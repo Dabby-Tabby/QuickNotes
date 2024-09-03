@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E49860E2C87B05D0097BD1E /* Quick Notes Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2E49860D2C87B05D0097BD1E /* Quick Notes Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E4986132C87B05D0097BD1E /* Quick_NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4986122C87B05D0097BD1E /* Quick_NotesApp.swift */; };
+		2E4986152C87B05D0097BD1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4986142C87B05D0097BD1E /* ContentView.swift */; };
+		2E4986172C87B05D0097BD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4986162C87B05D0097BD1E /* Assets.xcassets */; };
+		2E49861A2C87B05D0097BD1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4986192C87B05D0097BD1E /* Preview Assets.xcassets */; };
+		2E4986242C87B05E0097BD1E /* Quick_Notes_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4986232C87B05E0097BD1E /* Quick_Notes_Watch_AppTests.swift */; };
+		2E49862E2C87B05E0097BD1E /* Quick_Notes_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E49862D2C87B05E0097BD1E /* Quick_Notes_Watch_AppUITests.swift */; };
+		2E4986302C87B05E0097BD1E /* Quick_Notes_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E49862F2C87B05E0097BD1E /* Quick_Notes_Watch_AppUITestsLaunchTests.swift */; };
+		2E4986412C87B0900097BD1E /* AudioHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4986402C87B0900097BD1E /* AudioHandling.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E49860F2C87B05D0097BD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4986012C87B05D0097BD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E49860C2C87B05D0097BD1E;
+			remoteInfo = "Quick Notes Watch App";
+		};
+		2E4986202C87B05E0097BD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4986012C87B05D0097BD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E49860C2C87B05D0097BD1E;
+			remoteInfo = "Quick Notes Watch App";
+		};
+		2E49862A2C87B05E0097BD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4986012C87B05D0097BD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E49860C2C87B05D0097BD1E;
+			remoteInfo = "Quick Notes Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E4986362C87B05E0097BD1E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2E49860E2C87B05D0097BD1E /* Quick Notes Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E4986072C87B05D0097BD1E /* Quick Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E49860D2C87B05D0097BD1E /* Quick Notes Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Notes Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4986122C87B05D0097BD1E /* Quick_NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_NotesApp.swift; sourceTree = "<group>"; };
+		2E4986142C87B05D0097BD1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E4986162C87B05D0097BD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E4986192C87B05D0097BD1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E49861F2C87B05E0097BD1E /* Quick Notes Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick Notes Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4986232C87B05E0097BD1E /* Quick_Notes_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Notes_Watch_AppTests.swift; sourceTree = "<group>"; };
+		2E4986292C87B05E0097BD1E /* Quick Notes Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick Notes Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E49862D2C87B05E0097BD1E /* Quick_Notes_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Notes_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		2E49862F2C87B05E0097BD1E /* Quick_Notes_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Notes_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E4986402C87B0900097BD1E /* AudioHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHandling.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E49860A2C87B05D0097BD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E49861C2C87B05E0097BD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4986262C87B05E0097BD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4986002C87B05D0097BD1E = {
+			isa = PBXGroup;
+			children = (
+				2E4986112C87B05D0097BD1E /* Quick Notes Watch App */,
+				2E4986222C87B05E0097BD1E /* Quick Notes Watch AppTests */,
+				2E49862C2C87B05E0097BD1E /* Quick Notes Watch AppUITests */,
+				2E4986082C87B05D0097BD1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E4986082C87B05D0097BD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E4986072C87B05D0097BD1E /* Quick Notes.app */,
+				2E49860D2C87B05D0097BD1E /* Quick Notes Watch App.app */,
+				2E49861F2C87B05E0097BD1E /* Quick Notes Watch AppTests.xctest */,
+				2E4986292C87B05E0097BD1E /* Quick Notes Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E4986112C87B05D0097BD1E /* Quick Notes Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2E4986122C87B05D0097BD1E /* Quick_NotesApp.swift */,
+				2E4986142C87B05D0097BD1E /* ContentView.swift */,
+				2E4986402C87B0900097BD1E /* AudioHandling.swift */,
+				2E4986162C87B05D0097BD1E /* Assets.xcassets */,
+				2E4986182C87B05D0097BD1E /* Preview Content */,
+			);
+			path = "Quick Notes Watch App";
+			sourceTree = "<group>";
+		};
+		2E4986182C87B05D0097BD1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E4986192C87B05D0097BD1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E4986222C87B05E0097BD1E /* Quick Notes Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E4986232C87B05E0097BD1E /* Quick_Notes_Watch_AppTests.swift */,
+			);
+			path = "Quick Notes Watch AppTests";
+			sourceTree = "<group>";
+		};
+		2E49862C2C87B05E0097BD1E /* Quick Notes Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E49862D2C87B05E0097BD1E /* Quick_Notes_Watch_AppUITests.swift */,
+				2E49862F2C87B05E0097BD1E /* Quick_Notes_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Quick Notes Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E4986062C87B05D0097BD1E /* Quick Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4986372C87B05E0097BD1E /* Build configuration list for PBXNativeTarget "Quick Notes" */;
+			buildPhases = (
+				2E4986052C87B05D0097BD1E /* Resources */,
+				2E4986362C87B05E0097BD1E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4986102C87B05D0097BD1E /* PBXTargetDependency */,
+			);
+			name = "Quick Notes";
+			productName = "Quick Notes";
+			productReference = 2E4986072C87B05D0097BD1E /* Quick Notes.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		2E49860C2C87B05D0097BD1E /* Quick Notes Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4986332C87B05E0097BD1E /* Build configuration list for PBXNativeTarget "Quick Notes Watch App" */;
+			buildPhases = (
+				2E4986092C87B05D0097BD1E /* Sources */,
+				2E49860A2C87B05D0097BD1E /* Frameworks */,
+				2E49860B2C87B05D0097BD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quick Notes Watch App";
+			productName = "Quick Notes Watch App";
+			productReference = 2E49860D2C87B05D0097BD1E /* Quick Notes Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E49861E2C87B05E0097BD1E /* Quick Notes Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E49863A2C87B05E0097BD1E /* Build configuration list for PBXNativeTarget "Quick Notes Watch AppTests" */;
+			buildPhases = (
+				2E49861B2C87B05E0097BD1E /* Sources */,
+				2E49861C2C87B05E0097BD1E /* Frameworks */,
+				2E49861D2C87B05E0097BD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4986212C87B05E0097BD1E /* PBXTargetDependency */,
+			);
+			name = "Quick Notes Watch AppTests";
+			productName = "Quick Notes Watch AppTests";
+			productReference = 2E49861F2C87B05E0097BD1E /* Quick Notes Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E4986282C87B05E0097BD1E /* Quick Notes Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E49863D2C87B05E0097BD1E /* Build configuration list for PBXNativeTarget "Quick Notes Watch AppUITests" */;
+			buildPhases = (
+				2E4986252C87B05E0097BD1E /* Sources */,
+				2E4986262C87B05E0097BD1E /* Frameworks */,
+				2E4986272C87B05E0097BD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E49862B2C87B05E0097BD1E /* PBXTargetDependency */,
+			);
+			name = "Quick Notes Watch AppUITests";
+			productName = "Quick Notes Watch AppUITests";
+			productReference = 2E4986292C87B05E0097BD1E /* Quick Notes Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E4986012C87B05D0097BD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2E4986062C87B05D0097BD1E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2E49860C2C87B05D0097BD1E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2E49861E2C87B05E0097BD1E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2E49860C2C87B05D0097BD1E;
+					};
+					2E4986282C87B05E0097BD1E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2E49860C2C87B05D0097BD1E;
+					};
+				};
+			};
+			buildConfigurationList = 2E4986042C87B05D0097BD1E /* Build configuration list for PBXProject "Quick Notes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E4986002C87B05D0097BD1E;
+			productRefGroup = 2E4986082C87B05D0097BD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E4986062C87B05D0097BD1E /* Quick Notes */,
+				2E49860C2C87B05D0097BD1E /* Quick Notes Watch App */,
+				2E49861E2C87B05E0097BD1E /* Quick Notes Watch AppTests */,
+				2E4986282C87B05E0097BD1E /* Quick Notes Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E4986052C87B05D0097BD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E49860B2C87B05D0097BD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E49861A2C87B05D0097BD1E /* Preview Assets.xcassets in Resources */,
+				2E4986172C87B05D0097BD1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E49861D2C87B05E0097BD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4986272C87B05E0097BD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4986092C87B05D0097BD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4986152C87B05D0097BD1E /* ContentView.swift in Sources */,
+				2E4986412C87B0900097BD1E /* AudioHandling.swift in Sources */,
+				2E4986132C87B05D0097BD1E /* Quick_NotesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E49861B2C87B05E0097BD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4986242C87B05E0097BD1E /* Quick_Notes_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4986252C87B05E0097BD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4986302C87B05E0097BD1E /* Quick_Notes_Watch_AppUITestsLaunchTests.swift in Sources */,
+				2E49862E2C87B05E0097BD1E /* Quick_Notes_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E4986102C87B05D0097BD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E49860C2C87B05D0097BD1E /* Quick Notes Watch App */;
+			targetProxy = 2E49860F2C87B05D0097BD1E /* PBXContainerItemProxy */;
+		};
+		2E4986212C87B05E0097BD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E49860C2C87B05D0097BD1E /* Quick Notes Watch App */;
+			targetProxy = 2E4986202C87B05E0097BD1E /* PBXContainerItemProxy */;
+		};
+		2E49862B2C87B05E0097BD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E49860C2C87B05D0097BD1E /* Quick Notes Watch App */;
+			targetProxy = 2E49862A2C87B05E0097BD1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E4986312C87B05E0097BD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E4986322C87B05E0097BD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2E4986342C87B05E0097BD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quick Notes Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Notes";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Notes.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		2E4986352C87B05E0097BD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quick Notes Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Notes";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Notes.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		2E4986382C87B05E0097BD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Notes";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2E4986392C87B05E0097BD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Notes";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E49863B2C87B05E0097BD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Notes-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Notes Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quick Notes Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		2E49863C2C87B05E0097BD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Notes-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Notes Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quick Notes Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		2E49863E2C87B05E0097BD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Notes-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Quick Notes Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		2E49863F2C87B05E0097BD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Notes-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Quick Notes Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4986042C87B05D0097BD1E /* Build configuration list for PBXProject "Quick Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4986312C87B05E0097BD1E /* Debug */,
+				2E4986322C87B05E0097BD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4986332C87B05E0097BD1E /* Build configuration list for PBXNativeTarget "Quick Notes Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4986342C87B05E0097BD1E /* Debug */,
+				2E4986352C87B05E0097BD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4986372C87B05E0097BD1E /* Build configuration list for PBXNativeTarget "Quick Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4986382C87B05E0097BD1E /* Debug */,
+				2E4986392C87B05E0097BD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E49863A2C87B05E0097BD1E /* Build configuration list for PBXNativeTarget "Quick Notes Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E49863B2C87B05E0097BD1E /* Debug */,
+				2E49863C2C87B05E0097BD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E49863D2C87B05E0097BD1E /* Build configuration list for PBXNativeTarget "Quick Notes Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E49863E2C87B05E0097BD1E /* Debug */,
+				2E49863F2C87B05E0097BD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E4986012C87B05D0097BD1E /* Project object */;
+}
